@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+ background-color: #f7e5cd;
+}
+
+h1 {
+	font-family: 'Arvo', serif, Times New Roman;
+	font-size: 70px;
+	font-weight: 200;
+}
+
+p {
+	font-family: 'Arvo', serif, Times New Roman;
+	line-height: 25px;
+	font-size: 30px;
+}
+
+button {
+	font-family: 'Arvo', serif, Times New Roman;
+	font-size: 35px; 
+	letter-spacing: 2px;
+}
+
+#word{
+  font-size:50px;
+  margin-bottom:100px;
+}
+#word span{
+  width: 40px;
+  display:inline-block;
+  text-align:center;
+}
+#word span.missing{
+  color:#ECE26F;
+}
+#lives{
+  height:40px;
+  margin:20px 0;
+  background:url('http://img1.wikia.nocookie.net/__cb20130707182655/smudgecraft/images/6/6a/Minecraft_heart-e1289789285362.png') top left repeat;
+  background-size:auto 100%;
+}
+#buttons button{
+  font-size:40px;
+  border:1px solid #A3A122;
+  background-color:#D5D344;
+  box-shadow:0 3px 5px 0 rgba(0,0,0,0.4);
+  border-radius:5%;
+  height:50px;
+  width:70px;
+  margin:5px;
+  cursor:pointer;
+  outline:0;
+  color:mistyrose;
+}
+#buttons button:hover{
+  background-color:mistyrose;
+  color:#D5D344;
+  
+}
+#buttons button:active{
+  box-shadow:inset 0 0 5px 0 rgba(0,0,0,0.4);
+}
+#buttons button.disabled, #buttons button.disabled:hover, #buttons button.disabled:active{
+  background-color:mistyrose;
+  color:#D5D344;
+  box-shadow:inset 0 0 5px 0 rgba(0,0,0,0.4);
+  cursor:default;
+}
+button#next{
+  font-size:80px;
+  border:1px solid #1B5C75;
+  background-color:#2D90B7;
+  box-shadow:0 3px 5px 0 rgba(0,0,0,0.4);
+  border-radius:5px;
+  margin:5px;
+  cursor:pointer;
+  outline:0;
+  color:mistyrose;
+  margin:50px auto 0;
+  display:none;
+}
+button#next:hover{
+  background:#EAF0F2;
+  color:#2D90B7;
+}
+
+html.gameOver{
+  background:#B72D2D;
+}
+html.gameOver button#next, html.finished button#next{
+  display:block;
+}
+html.finished{
+  background:#D5D344;
+}
