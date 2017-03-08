@@ -1,4 +1,4 @@
-var words = ["HELLO", "APOLOGIZE", "YELLOW", "HELP", "PHOTOGRAPH" ]
+var words = ["HELLO", "APOLOGIZE", "YELLOW", "HELP", "PHOTOGRAPH", "CALIFORNICATION", "POISON", "GRENADE", "KRYPTONITE", "DYNAMITE", "WATERFALLS", "ROYALS", "DILEMMA" ]
   hit = false,
   i = 0,
   buttons = [],
